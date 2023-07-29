@@ -1,0 +1,176 @@
+/* HEADERBOX */
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container__headerbox {
+    display: flex;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.headerbox__img {
+    padding: 16px;
+}
+
+.headerbox__img-big img{
+    width: 460px;
+}
+
+.headerbox__img-small {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.headerbox__img-small img {
+    max-width: 86px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.headerbox__img-interact {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    line-height: 0;
+}
+
+.headerbox__img-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerbox__img-share span {
+    font-size: 18px;
+    padding-right: 4px;
+    border-left: 1px solid rgba(0, 0, 0, 0.09);
+    padding-left: 40px;
+}
+
+.headerbox__img-link {
+    background-color: #fff;
+    border: none;
+    text-decoration: none;
+    padding: 0 4px;
+    font-size: 24px;
+}
+
+.headerbox__img-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerbox__img-like span {
+    font-size: 18px;
+    padding-left: 8px;
+    font-weight: 500;
+}
+
+.headerbox__info {
+    padding: 16px 34px;
+}
+
+.headerbox__info-heading {
+    font-weight: 400;
+    margin: 0;
+}
+
+.headerbox__info-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 6px 0;
+}
+
+.headerbox__info-rating--wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerbox__info-rating--star, .headerbox__info-rating--comment {
+    border-right: 1px solid rgba(0, 0, 0, 0.09);
+    padding-right: 20px;
+}
+
+.headerbox__info-rating--sell span,
+.headerbox__info-rating--comment span,
+.headerbox__info-accuse {
+    color: #767676;
+    font-weight: 300;
+}
+
+.headerbox__info-rating--star button,
+.headerbox__info-rating--comment button {
+    border-bottom: 1px solid;
+}
+
+.headerbox__info-rating--sell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.headerbox__info-price {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 14px;
+}
+
+.headerbox__info-price span {
+    font-size: 24px;
+}
+
+.headerbox__info-price p {
+    font-size: 34px;
+    margin: 0;
+}
+
+.headerbox__info-buy--sale {
+    display: flex;
+    font-size: 14px;
+    margin: 20px 0;
+
+}
+
+.headerbox__info-buy--sale span,
+.headerbox__info-buy--transport span {
+    width: 100px;
+    margin-right: 30px;
+}
+
+.headerbox__info-buy--sale button {
+    cursor: pointer;
+    min-width: 70px;    
+}
+
+.headerbox__info-buy--transport span {
+    position: relative;
+}
+
+.headerbox__info-buy--transport {
+    display: flex;
+    font-size: 14px;
+}
+
+.headerbox__info-transport--adr,
+.headerbox__info-transport--ship {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.headerbox__info-transport--adr p,
+.headerbox__info-transport--ship p {
+    margin: 0;
+}
